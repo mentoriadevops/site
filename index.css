@@ -1,6 +1,8 @@
 body, html{
     height: 100%;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 .bg-content{
@@ -9,4 +11,31 @@ body, html{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+.container{
+    height: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+}
+
+.card{
+    color: #0f1e2c;
+    border: none;
+    display: flex; 
+    justify-content: start; 
+    align-items: center; 
+    box-shadow: #0f1e2c 0px 5px 15px;
+    width: 250px;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    transition: all 0.3s ease-out;
+}
+
+.card:hover{
+    transform: translateY(-3px);
+    cursor: pointer;
 }
